@@ -19,7 +19,7 @@ console.log(tertiary);  // this will log--> blue
 
 // object destructuring is a bit different from array destructuring; you must know the keys of the object.
 //cuz when you destructure an object, JS looks for specific property names (keys): It’s key-based
-const person = { name: "ahmed", age: 28, city: "tokyo" };
+const person = { name: "Ahmed", age: 28, city: "tokyo" };
 
 // old way
 let myName = person.name;
@@ -45,8 +45,8 @@ console.log(country); // Egypt
 const user = {
   username: "coder123",
   email: "coder123@example.com",
-  _country: "USA",
-  _age: 30
+  _country: "Egypt",
+  _age: 28
 };
 
 const {username : _user, email, _country , _age, _city = "unknown"} = user 

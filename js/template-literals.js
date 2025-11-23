@@ -1,8 +1,8 @@
 //this is a new way to create strings that can include variables and expressions easily, using backticks ` instead of quotes.
 
 //this is an easier way instead of using (+)
-const _name = "Alice";
-const age = 25;
+const _name = "Ahmed";
+const age = 28;
 
 // old way
 console.log("Hello " + _name + ", you are " + age + " years old.");

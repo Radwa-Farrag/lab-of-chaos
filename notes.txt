@@ -1,0 +1,3 @@
+this is my chaotic notes' space
+-Git does not track empty folders. So if you want an empty folder to appear on GitHub, you need to put at least one file inside it.(.gitkeep) is usually used as that placeholder file.
+-
